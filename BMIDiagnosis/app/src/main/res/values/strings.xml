@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Temperature Conversion Application</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="celsius">Celsius</string>
+    <string name="convert_to_celsius">Convert To Celsius</string>
+    <string name="convert_to_fahrenheit">Convert To Fahrenheit</string>
+    <string name="clear">Clear</string>
+    <string name="nh_p_t_n">Nhập Tên:</string>
+    <string name="chi_u_cao">Chiều Cao:</string>
+    <string name="c_n_n_ng">Cân Nặng</string>
+    <string name="t_nh_bmi">Tính BMI</string>
+    <string name="ch_ng_tr_nh_t_nh_ch_s_bmi">Chương trình tỉnh chỉ số BMI</string>
+    <string name="bmi">BMI =</string>
+    <string name="chu_n_o_n">Chuẩn đoán</string>
+</resources>
