@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Register Information</string>
+    <string name="h_t_n">Họ tên:</string>
+    <string name="cmnd">CMND:</string>
+    <string name="th_ng_tin_c_nh_n">Thông tin cá nhân</string>
+    <string name="trung_c_p">Trung cấp</string>
+    <string name="cao_ng">Cao đẳng</string>
+    <string name="i_h_c">Đại học</string>
+    <string name="b_ng_c_p">Bằng cấp</string>
+    <string name="s_th_ch">Sở thích</string>
+    <string name="c_b_o">Đọc báo</string>
+    <string name="c_s_ch">Đọc sách</string>
+    <string name="c_coding">Đọc coding</string>
+    <string name="th_ng_tin_b_sung">Thông tin bổ sung</string>
+    <string name="g_i_th_ng_tin">Gửi thông tin</string>
+</resources>
