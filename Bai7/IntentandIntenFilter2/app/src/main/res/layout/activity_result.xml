@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Kết quả phương trình bậc 1"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/txtketqua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="text"
+        android:gravity="center"
+        android:background="#BDE4BE"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="#B8B2B2"
+        android:text="Back"
+        android:textColor="@android:color/black"
+        app:cornerRadius="0dp" />
+</LinearLayout>

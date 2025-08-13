@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">IntentAndIntentFilter3</string>
+    <string name="y_u_c_u_k_t_qu">YÊU CẦU KẾT QUẢ</string>
+    <string name="k_t_qu">Kết quả:</string>
+    <string name="nh_p_gi_tr_b">Nhập giá trị B</string>
+    <string name="nh_p_gi_tr_a">Nhập giá trị A</string>
+    <string name="nh_p_a">Nhập A:</string>
+    <string name="x_l_k_t_qu">Xử lý Kết quả</string>
+</resources>
