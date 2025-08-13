@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <TextView android:id="@+id/txtmaso" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:id="@+id/txttieude" android:textSize="18sp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:id="@+id/txttacgia" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:id="@+id/txttheloai" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        <TextView android:text="Lời bài hát:" android:layout_marginTop="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:id="@+id/txtloibai" android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="end">
+            <ImageButton android:id="@+id/btnKhongThich" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/unlike" />
+            <ImageButton android:id="@+id/btnThich" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/favourite" android:visibility="gone"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

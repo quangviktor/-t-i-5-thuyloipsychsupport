@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="8dp"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/txtmaso"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txttieude"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:paddingStart="8dp" />
+
+    <ImageView
+        android:id="@+id/btnunlike"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/unlike"
+        android:contentDescription="Thích"/>
+
+    <ImageView
+        android:id="@+id/btnlike"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/favourite"
+        android:contentDescription="Bỏ thích"
+        android:visibility="gone"/>
+</LinearLayout>

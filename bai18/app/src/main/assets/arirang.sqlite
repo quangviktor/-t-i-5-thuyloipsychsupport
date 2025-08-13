@@ -1,0 +1,17 @@
+-- X?a b?ng n?u d? t?n t?i
+DROP TABLE IF EXISTS KaraokeSongs;
+
+-- T?o b?ng m?i
+CREATE TABLE KaraokeSongs (
+    MaSo TEXT PRIMARY KEY,
+    TieuDe TEXT NOT NULL,
+    TacGia TEXT,
+    TheLoai TEXT,
+    LoiBaiHat TEXT
+);
+
+-- Th?m d? li?u m?u
+INSERT INTO KaraokeSongs (MaSo, TieuDe, TacGia, TheLoai, LoiBaiHat) VALUES
+('10001', 'N?i V?ng Tay L?n', 'Tr?nh C?ng Son', 'Nh?c Tr? T?nh', 'N?i v?ng tay l?n d? m?i du?c g?n nhau...'),
+('10002', 'H? N?i M?a V?ng Nh?ng Con Mua', 'Truong Qu? H?i', 'Nh?c Tr? T?nh', 'H? N?i m?a n?y v?ng nh?ng con mua...'),
+('10003', 'H?y Trao Cho Anh', 'Son T?ng M-TP', 'Nh?c Pop', 'H?y trao cho anh ?nh m?t d?...');
