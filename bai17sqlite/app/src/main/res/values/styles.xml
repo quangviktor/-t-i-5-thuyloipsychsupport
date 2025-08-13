@@ -1,0 +1,5 @@
+<resources>
+    <style name="Theme.Bài16" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Tùy chỉnh màu sắc, font... -->
+    </style>
+</resources>
